@@ -1,0 +1,74 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "rules": "Reglas",
+    "locations": "Localizaciones",
+    "units": "Unidades"
+  },
+  "home": {
+    "title": "Bienvenido al Códice de OW",
+    "welcome": "Explora las unidades, localizaciones, fichas, reglas y mecánicas de nuestro juego. Usa el menú para navegar por las diferentes secciones."
+  },
+  "rules": {
+    "title": "Reglamento del Juego"
+  },
+  "locations": {
+    "title": "Localizaciones",
+    "searchPlaceholder": "Buscar por nombre...",
+    "allTerrains": "Todos los terrenos",
+    "galleryView": "Galería",
+    "tableView": "Tabla",
+    "locationImageAlt": "Imagen de la localización {locationName}",
+    "modalAlt": "Vista ampliada de {locationName}",
+    "noResults": "No se encontraron localizaciones con los filtros actuales.",
+    "table": {
+      "name": "Nombre",
+      "terrain": "Terreno",
+      "entrance": "Entrada",
+      "gold": "Oro",
+      "mana": "Maná"
+    },
+    "gallery": {
+      "entrance": "ENTRADA",
+      "gold": "ORO",
+      "mana": "MANÁ"
+    }
+  },
+  "units": {
+    "title": "Unidades",
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar por nombre...",
+    "filterByFaction": "Filtrar por facción",
+    "allFactions": "Todas las facciones",
+    "filterByExpansion": "Filtrar por expansión",
+    "allExpansions": "Todas las expansiones",
+    "filterByTerrain": "Filtrar por terreno",
+    "allTerrains": "Todos los terrenos",
+    "galleryView": "Galería",
+    "tableView": "Tabla",
+    "unitImageAlt": "Imagen de la unidad {unitName}",
+    "modalAlt": "Vista ampliada de la unidad {unitName}",
+    "noResults": "No se encontraron unidades con los filtros actuales.",
+    "table": {
+      "name": "Nombre",
+      "faction": "Facción",
+      "expansion": "Expansión",
+      "cost": "Coste",
+      "initiative": "INI",
+      "move": "MOV",
+      "atk": "ATK",
+      "range": "Rango",
+      "wounded": "Herida",
+      "unique": "Única",
+      "terrain": "Terreno"
+    },
+    "gallery":{
+      "move": "MOV",
+      "atk": "ATK",
+      "range": "RNG"
+    }
+  },
+  "skills": {
+    "title": "Listado de Habilidades"
+  }
+}
