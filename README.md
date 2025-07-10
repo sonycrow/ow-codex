@@ -1,10 +1,10 @@
 # OW Codex
 
-Una aplicación web para explorar el códice del juego Open Wars (Open wars - The Game).
+Una aplicación web para explorar el códice del juego Open Wars (Open Wars - The Game).
 
 ## Descripción
 
-OCW Codex es una herramienta de referencia para jugadores del juego de cartas OCW. Permite a los usuarios navegar y buscar información detallada sobre personajes, habilidades, rasgos y equipamiento del juego. La aplicación está diseñada para ser rápida, responsiva y fácil de usar.
+OW Codex es una herramienta de referencia para jugadores del juego OW. Permite a los usuarios navegar y buscar información detallada sobre unidades, localizaciones, fichas, etc... La aplicación está diseñada para ser rápida, responsiva y fácil de usar.
 
 ## Características
 
