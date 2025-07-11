@@ -32,7 +32,7 @@ const { getLocationImageUrl } = useUtils();
                 <!-- Location Stats -->
                 <div class="flex justify-around items-center mt-4 text-center text-xs text-gray-700 dark:text-gray-300">
                     <div>
-                        <span class="font-bold text-blue-400">{{ $t('locations.gallery.entrance') }}</span>
+                        <span class="font-bold text-gray-400">{{ $t('locations.gallery.entrance') }}</span>
                         <p class="text-lg">{{ location.entrance }}</p>
                     </div>
                     <div>
@@ -40,7 +40,7 @@ const { getLocationImageUrl } = useUtils();
                         <p class="text-lg">{{ location.gold }}</p>
                     </div>
                     <div>
-                        <span class="font-bold text-purple-400">{{ $t('locations.gallery.mana') }}</span>
+                        <span class="font-bold text-blue-400">{{ $t('locations.gallery.mana') }}</span>
                         <p class="text-lg">{{ location.mana }}</p>
                     </div>
                 </div>

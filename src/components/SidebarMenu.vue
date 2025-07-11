@@ -9,6 +9,7 @@ const menuItems = [
   { name: 'navigation.home', path: '/inicio' },
   { name: 'navigation.rules', path: '/reglas' },
   { name: 'navigation.units', path: '/units' },
+  { name: 'navigation.spells', path: '/spells' },
   { name: 'navigation.locations', path: '/locations' },
 ];
 </script>

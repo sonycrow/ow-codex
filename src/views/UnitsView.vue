@@ -69,7 +69,6 @@ const setViewMode = (mode) => {
     <div class="mb-6 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md flex flex-wrap items-center gap-4">
       <!-- Search -->
       <div class="flex-grow min-w-[200px]">
-        <label for="search" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{{ $t('units.search') }}</label>
         <input
           type="text"
           id="search"
@@ -81,7 +80,6 @@ const setViewMode = (mode) => {
 
       <!-- Filter by Faction -->
       <div class="flex-grow min-w-[150px]">
-        <label for="faction-filter" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{{ $t('units.filterByFaction') }}</label>
         <select
           id="faction-filter"
           v-model="selectedFaction"
@@ -95,7 +93,6 @@ const setViewMode = (mode) => {
 
       <!-- Filter by Expansion -->
       <div class="flex-grow min-w-[150px]">
-        <label for="expansion-filter" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{{ $t('units.filterByExpansion') }}</label>
         <select
           id="expansion-filter"
           v-model="selectedExpansion"
@@ -109,7 +106,6 @@ const setViewMode = (mode) => {
 
       <!-- Filter by Terrain -->
       <div class="flex-grow min-w-[150px]">
-        <label for="terrain-filter" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{{ $t('units.filterByTerrain') }}</label>
         <select
           id="terrain-filter"
           v-model="selectedTerrain"

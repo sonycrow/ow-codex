@@ -3,7 +3,8 @@
     "home": "Inicio",
     "rules": "Reglas",
     "locations": "Localizaciones",
-    "units": "Unidades"
+    "units": "Unidades",
+    "spells": "Hechizos"
   },
   "home": {
     "title": "Bienvenido al Códice de OW",
@@ -11,6 +12,16 @@
   },
   "rules": {
     "title": "Reglamento del Juego"
+  },
+  "factions": {
+    "any": "Cualquiera",
+    "amazons": "Amazonas",
+    "barbarians": "Bárbaros",
+    "daemons": "Demonios",
+    "elves": "Elfos",
+    "orcs": "Orcos",
+    "undead": "No-muertos",
+    "dwarves": "Enanos"
   },
   "locations": {
     "title": "Localizaciones",
@@ -36,13 +47,9 @@
   },
   "units": {
     "title": "Unidades",
-    "search": "Buscar",
     "searchPlaceholder": "Buscar por nombre...",
-    "filterByFaction": "Filtrar por facción",
     "allFactions": "Todas las facciones",
-    "filterByExpansion": "Filtrar por expansión",
     "allExpansions": "Todas las expansiones",
-    "filterByTerrain": "Filtrar por terreno",
     "allTerrains": "Todos los terrenos",
     "galleryView": "Galería",
     "tableView": "Tabla",
@@ -70,5 +77,28 @@
   },
   "skills": {
     "title": "Listado de Habilidades"
+  },
+  "spells": {
+    "title": "Hechizos",
+    "filter": {
+      "searchPlaceholder": "Buscar por nombre o texto...",
+      "allTypes": "Todos los tipos",
+      "allExpansions": "Todas las expansiones",
+      "allFactions": "Todas las facciones",
+      "neutralFaction": "Neutral"
+    },
+    "table": {
+      "name": "Nombre",
+      "type": "Tipo",
+      "mana": "Maná",
+      "faction": "Facción",
+      "expansion": "Expansión",
+      "text": "Texto",
+      "noResults": "No se encontraron hechizos con los filtros actuales."
+    }
+  },
+  "spellTypes": {
+    "instant": "Instantáneo",
+    "combat": "Combate"
   }
 }

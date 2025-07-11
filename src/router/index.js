@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import RulesView from '../views/RulesView.vue';
 import LocationsView from '../views/LocationsView.vue';
 import UnitsView from '../views/UnitsView.vue';
+import SpellsView from '../views/SpellsView.vue';
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
     path: '/units',
     name: 'Units',
     component: UnitsView,
+  },
+  {
+    path: '/spells',
+    name: 'Spells',
+    component: SpellsView,
   }
 ];
 

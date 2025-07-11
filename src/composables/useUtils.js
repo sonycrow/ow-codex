@@ -26,7 +26,7 @@ export function useUtils() {
     return new URL(`../assets/locations/${location.universe}/${location.expansion}/${location.expansion}_${location.code}.png`, import.meta.url).href;
   };
 
-    /**
+  /**
    * Gets the URL for a unit's image.
    * @param {object} unit The unit object.
    * @returns {string} The image URL.
@@ -37,5 +37,18 @@ export function useUtils() {
     return new URL(`../assets/units/${unit.universe}/${unit.expansion}/${unit.expansion}_${unit.faction}_${fileName}${wounded}.png`, import.meta.url).href;
   };
 
-  return { getUnitCost, getLocationImageUrl, getUnitImageUrl };
+  // Función para obtener el nombre localizado de la facción
+  const getFactionName = (factionCode) => {
+    if (!factionCode) {
+      return t('factions.any'); // Texto para facciones neutrales
+    }
+    return t(`factions.${factionCode}`, factionCode);
+  };
+
+  // Función para obtener el nombre localizado del tipo de hechizo
+  const getSpellTypeName = (typeCode) => {
+    return t(`spellTypes.${typeCode}`, typeCode);
+  };
+
+  return { getUnitCost, getLocationImageUrl, getUnitImageUrl, getFactionName, getSpellTypeName };
 }
